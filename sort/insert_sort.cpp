@@ -1,7 +1,7 @@
 #include <string>
 #include <vector>
 
-#include "core.hpp"
+#include "core/core.hpp"
 
 /**
  * @brief insert val_to_insert(index is val_index) into sorted vector
@@ -17,7 +17,7 @@ void insert(std::vector<int> &vec, int val_to_insert_index) {
 }
 
 void insert_sort(std::vector<int> &vec) {
- for (auto i = 1; i < vec.size(); ++i) {
+  for (auto i = 1; i < vec.size(); ++i) {
     insert(vec, i);
   }
   print_vector(vec, "insert sort:");

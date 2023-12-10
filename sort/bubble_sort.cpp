@@ -11,7 +11,7 @@
 #include <string>
 #include <vector>
 
-#include "core.hpp"
+#include "core/core.hpp"
 
 /**
  * @brief bubble through start_index to end_index, max value will bubble to

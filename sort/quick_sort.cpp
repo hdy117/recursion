@@ -1,7 +1,7 @@
 #include <string>
 #include <vector>
 
-#include "core.hpp"
+#include "core/core.hpp"
 
 int partion(std::vector<int> &vec, int i_start, int i_end) {
   int i_pivot = (i_start + i_end) / 2;

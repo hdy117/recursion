@@ -12,7 +12,7 @@
 #include <string>
 #include <vector>
 
-#include "core.hpp"
+#include "core/core.hpp"
 
 int select_min(const std::vector<int> &vec, int start_index) {
   if (start_index >= vec.size())

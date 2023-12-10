@@ -1,7 +1,7 @@
 #include <string>
 #include <vector>
 
-#include "core.hpp"
+#include "core/core.hpp"
 
 void merge(std::vector<int> &vec, int i_start, int i_mid, int i_end) {
   int i_left = i_start, i_right = i_mid + 1;

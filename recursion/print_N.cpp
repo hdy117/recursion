@@ -1,4 +1,4 @@
-#include "core.hpp"
+#include "core/core.hpp"
 #include <iostream>
 
 void print_1_to_N(int n) {
