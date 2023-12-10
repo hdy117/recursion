@@ -15,4 +15,4 @@
 > 3. ./recursion/print_names.cpp        --> print content for n times
 > 4. ./recursion/stackoverflow.cpp      --> recursion stackoverflow which consumes all stack memory
 > 5. ./recursion/print_N.cpp            --> print 1 to N and N to 1
-> 6. ./recursion/sum.cpp                --> sum from 1 to N
+> 6. ./recursion/sum_product.cpp        --> sum and product from 1 to N
