@@ -18,3 +18,4 @@
 > 6. ./recursion/sum_product.cpp        --> sum and product from 1 to N
 > 7. ./recursion/swap_array.cpp         --> swap/inverse array
 > 8. ./recursion/reverse_linkedlist.cpp --> inverse linked list
+> 9. ./recursion/string_palindrome.cpp  --> check if a string is palindrome

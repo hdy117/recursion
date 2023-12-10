@@ -25,3 +25,7 @@ target_link_libraries(recursion_swap_array ${lib_sys})
 
 add_executable(recursion_reverse_linkedlist ${CMAKE_CURRENT_SOURCE_DIR}/reverse_linkedlist.cpp)
 target_link_libraries(recursion_reverse_linkedlist ${lib_sys})
+
+add_executable(recursion_string_palindrome ${CMAKE_CURRENT_SOURCE_DIR}/string_palindrome.cpp)
+target_link_libraries(recursion_string_palindrome ${lib_sys})
+
