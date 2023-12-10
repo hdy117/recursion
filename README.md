@@ -8,4 +8,5 @@
 > 4. ./sort/quick_sort.cpp
 > 5. ./sort/select_sort.cpp
 ## recursion
-> 1. ./src/tail_recursion.cpp
+> 1. ./recursion/print_stars.cpp
+> 2. ./recursion/tail_recursion.cpp
