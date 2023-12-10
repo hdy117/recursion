@@ -2,10 +2,6 @@ cmake_minimum_required(VERSION 3.14.0)
 
 project(recursion)
 
-cmake_minimum_required(VERSION 3.14.0)
-
-project(sort)
-
 add_executable(recursion_print_stars ${CMAKE_CURRENT_SOURCE_DIR}/print_stars.cpp)
 target_link_libraries(recursion_print_stars ${lib_sys})
 
@@ -24,3 +20,5 @@ target_link_libraries(recursion_print_N ${lib_sys})
 add_executable(recursion_sum ${CMAKE_CURRENT_SOURCE_DIR}/sum_product.cpp)
 target_link_libraries(recursion_sum ${lib_sys})
 
+add_executable(recursion_swap_array ${CMAKE_CURRENT_SOURCE_DIR}/swap_array.cpp)
+target_link_libraries(recursion_swap_array ${lib_sys})
