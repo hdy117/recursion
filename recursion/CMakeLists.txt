@@ -21,6 +21,6 @@ target_link_libraries(recursion_print_names ${lib_sys})
 add_executable(recursion_print_N ${CMAKE_CURRENT_SOURCE_DIR}/print_N.cpp)
 target_link_libraries(recursion_print_N ${lib_sys})
 
-add_executable(recursion_sum ${CMAKE_CURRENT_SOURCE_DIR}/sum.cpp)
+add_executable(recursion_sum ${CMAKE_CURRENT_SOURCE_DIR}/sum_product.cpp)
 target_link_libraries(recursion_sum ${lib_sys})
 
