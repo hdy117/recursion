@@ -17,3 +17,7 @@ target_link_libraries(recursion_stackoverflow ${lib_sys})
 
 add_executable(recursion_print_names ${CMAKE_CURRENT_SOURCE_DIR}/print_names.cpp)
 target_link_libraries(recursion_print_names ${lib_sys})
+
+add_executable(recursion_print_N ${CMAKE_CURRENT_SOURCE_DIR}/print_N.cpp)
+target_link_libraries(recursion_print_N ${lib_sys})
+
