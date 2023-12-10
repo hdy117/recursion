@@ -20,3 +20,4 @@
 > 8. ./recursion/reverse_linkedlist.cpp --> inverse linked list
 > 9. ./recursion/string_palindrome.cpp  --> check if a string is palindrome
 > 10. ./recursion/fabonacci.cpp         --> fabonacci, time complexity 2^n
+> 11. ./recursion/subsequence.cpp       --> all subsequence of a array

@@ -31,3 +31,6 @@ target_link_libraries(recursion_string_palindrome ${lib_sys})
 
 add_executable(recursion_fabonacci ${CMAKE_CURRENT_SOURCE_DIR}/fabonacci.cpp)
 target_link_libraries(recursion_fabonacci ${lib_sys})
+
+add_executable(recursion_subsequence ${CMAKE_CURRENT_SOURCE_DIR}/subsequence.cpp)
+target_link_libraries(recursion_subsequence ${lib_sys})
