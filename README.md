@@ -17,3 +17,4 @@
 > 5. ./recursion/print_N.cpp            --> print 1 to N and N to 1
 > 6. ./recursion/sum_product.cpp        --> sum and product from 1 to N
 > 7. ./recursion/swap_array.cpp         --> swap/inverse array
+> 8. ./recursion/reverse_linkedlist.cpp --> inverse linked list

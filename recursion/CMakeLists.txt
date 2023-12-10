@@ -22,3 +22,6 @@ target_link_libraries(recursion_sum ${lib_sys})
 
 add_executable(recursion_swap_array ${CMAKE_CURRENT_SOURCE_DIR}/swap_array.cpp)
 target_link_libraries(recursion_swap_array ${lib_sys})
+
+add_executable(recursion_reverse_linkedlist ${CMAKE_CURRENT_SOURCE_DIR}/reverse_linkedlist.cpp)
+target_link_libraries(recursion_reverse_linkedlist ${lib_sys})
