@@ -1,5 +1,4 @@
-#pragma once
-
+#include "core.hpp"
 #include <iostream>
 
 void print_stars(int n) {
@@ -12,4 +11,10 @@ void print_stars(int n) {
     std::cout << "*";
   }
   std::cout << "\n";
+}
+
+int main() {
+  print_stars(3);
+
+  return 0;
 }

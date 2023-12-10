@@ -20,9 +20,5 @@ set(lib_sys pthread)
 aux_source_directory(${root_dir}/src src_files)
 
 # sub directories
-add_subdirectory(${root_dir}/src/tail_recursion)
+add_subdirectory(${root_dir}/recursion)
 add_subdirectory(${root_dir}/sort)
-
-# build
-add_executable(recursion_test ${src_files})
-target_link_libraries(recursion_test ${tail_recursion} ${lib_sys})

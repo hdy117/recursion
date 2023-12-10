@@ -1,5 +1,4 @@
-#pragma once
-
+#include "core.hpp"
 #include <iostream>
 
 void trail_recursion_func(int n) {
@@ -9,4 +8,10 @@ void trail_recursion_func(int n) {
     std::cout << "n:" << n << ".\n";
   }
   trail_recursion_func(n - 1);
+}
+
+int main() {
+  trail_recursion_func(5);
+
+  return 0;
 }
