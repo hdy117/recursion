@@ -17,6 +17,13 @@ void subsequence(const std::vector<int> &arr, int index, std::vector<int> sub) {
   subsequence(arr, index + 1, sub);
 }
 
+/**
+ * @brief "sub" works like a stack travel with recursion tree
+ *
+ * @param arr
+ * @param index
+ * @param sub
+ */
 void subsequence_optimization(const std::vector<int> &arr, int index,
                               std::vector<int> &sub) {
   if (index >= arr.size()) {

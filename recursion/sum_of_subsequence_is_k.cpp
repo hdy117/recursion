@@ -39,7 +39,7 @@ void sum_of_subsequence_is_k(const std::vector<int> &arr, int index,
  *
  * @param arr, original vector
  * @param index, index of original vector
- * @param sub, subsequence works like a stack travells with recursion tree
+ * @param sub, subsequence works like a stack travels with recursion tree
  * @param k, target value
  * @param sum, current sum
  * @param found_flag, flag if found a subsequence
@@ -81,7 +81,7 @@ void first_subsequence_whose_sum_is_k(const std::vector<int> &arr, int index,
  * @param arr
  * @param index
  * @param k
- * @param sum, works like a stack travells with recursion tree
+ * @param sum, works like a stack travels with recursion tree
  * @return int
  */
 int count_of_subsequence_whose_sum_is_k(const std::vector<int> &arr, int index,
