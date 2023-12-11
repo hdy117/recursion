@@ -21,4 +21,5 @@
 > 9. ./recursion/string_palindrome.cpp  --> check if a string is palindrome
 > 10. ./recursion/fabonacci.cpp         --> fabonacci, time complexity 2^n
 > 11. ./recursion/subsequence.cpp       --> all subsequence of a array, works like a stack travels with recursion tree
-> 12. ./recursion/sum_of_subsequence_is_k   --> subsequence whose sum is k, works like a stack travels with recursion tree
+> 12. ./recursion/sum_of_subsequence_is_k.cpp   --> subsequence whose sum is k, works like a stack travels with recursion tree
+> 13. ./recursion/coin_change.cpp       --> coin change using recursion

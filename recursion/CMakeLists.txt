@@ -38,3 +38,5 @@ target_link_libraries(recursion_subsequence ${lib_sys})
 add_executable(recursion_sum_of_subsequence_is_k ${CMAKE_CURRENT_SOURCE_DIR}/sum_of_subsequence_is_k.cpp)
 target_link_libraries(recursion_sum_of_subsequence_is_k ${lib_sys})
 
+add_executable(recursion_coin_change ${CMAKE_CURRENT_SOURCE_DIR}/coin_change.cpp)
+target_link_libraries(recursion_coin_change ${lib_sys})
