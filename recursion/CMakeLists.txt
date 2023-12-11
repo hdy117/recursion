@@ -34,3 +34,7 @@ target_link_libraries(recursion_fabonacci ${lib_sys})
 
 add_executable(recursion_subsequence ${CMAKE_CURRENT_SOURCE_DIR}/subsequence.cpp)
 target_link_libraries(recursion_subsequence ${lib_sys})
+
+add_executable(recursion_sum_of_subsequence_is_k ${CMAKE_CURRENT_SOURCE_DIR}/sum_of_subsequence_is_k.cpp)
+target_link_libraries(recursion_sum_of_subsequence_is_k ${lib_sys})
+
